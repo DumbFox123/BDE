@@ -1,28 +1,12 @@
-# SSAV (CVPR2019-Oral) <a name="headin"></a>
-
-Code for paper in CVPR2019, '**Shifting More Attention to Video Salient Object Detection**' 
+# Bit Deep Enhancement <a name="headin"></a>
 
 > **Authors:**
-> [Deng-Ping Fan]([https://dpfan.net/](https://dengpingfan.github.io/)), 
-> [Wenguan Wang](https://github.com/wenguanwang), 
-> [Ming-Ming Cheng](http://mmcheng.net), 
-> [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing/).
-
-[**Supplementary material** is also attached in the repo]
-
-**Paper with code**: https://paperswithcode.com/task/video-salient-object-detection 
-
-<p align="center">
-    <img src="figures/framework.png" width="100%" /> <br />
-    <em> 
-    Figure 1: OVerall architecture of the proposed SSAV model.
-    </em>
-</p>
+> [Jing Liu](https://github.com/TJUMMG).
 
 ### Table of Contents
 - [SSAV (CVPR2019-Oral) <a name="headin"></a>](#ssav-cvpr2019-oral-)
 		- [Table of Contents](#table-of-contents)
-	- [Abstract](#abstract)
+	- [Introduction](#introduction)
 	- [Notion of saliency shift](#notion-of-saliency-shift)
 	- [Statistics of DAVSOD](#statistics-of-davsod)
 	- [Downloads](#downloads)
@@ -30,8 +14,18 @@ Code for paper in CVPR2019, '**Shifting More Attention to Video Salient Object D
 	- [Results](#results)
 	- [Citation](#citation)
 
-## Abstract
+## Introduction
 The last decade has witnessed a growing interest in video salient object detection (VSOD). However, the research community long-term lacked a well-established VSOD dataset representative of real dynamic scenes with high-quality annotations. To address this issue, we elaborately collected a visual-attention-consistent Densely Annotated VSOD (DAVSOD) dataset, which contains 226 videos with 23,938 frames that cover diverse realistic-scenes, objects, instances and motions. With corresponding real human eye-fixation data, we obtain precise ground-truths. This is the first work that explicitly emphasizes the challenge of saliency shift, i.e., the video salient object(s) may dynamically change. To further contribute the community a complete benchmark, we systematically assess 17 representative VSOD algorithms over seven existing VSOD datasets and our DAVSOD with totally ~84K frames (largest-scale). Utilizing three famous metrics, we then present a comprehensive and insightful performance analysis. Furthermore, we propose a baseline model. It is equipped with a saliencyshift-aware convLSTM, which can efficiently capture video saliency dynamics through learning human attention-shift behavior. Extensive experiments1 open up promising future directions for model development and comparison.
+
+
+
+<p align="center">
+    <img src="framework.png" width="100%" /> <br />
+    <em> 
+    Figure 1: OVerall architecture of the proposed SSAV model.
+    </em>
+</p>
+
 
 
 ## Notion of saliency shift
