@@ -5,7 +5,7 @@
 
 ## :bookmark:Contents
 - **[Bit Depth Enhancement <a name="headin"></a>](#bit-deep-enhancement-)**	
-	- **[Contents](#:bookmark:contents)**	
+	- **[Contents](#contents)**	
 	- **[Introduction](#introduction)**
 	- **[Datasets](#datasets)**
 	- **[Papers and Codes](#papers-and-codes)**
@@ -23,7 +23,7 @@ With the development of digital signal visualization technology, the demands for
 </p>
 
 
-:file_folder:## Datasets
+## :file_folder: Datasets
 
 &nbsp; &nbsp; 位深增强算法的设计和验证离不开高位深内容数据库，目前国内外常用的高位深图像和视频数据集有Sintel数据集、MIT-Adobe 5K数据集、TESTIMAGES数据集、FuntHDR数据集、SJTU HDR、Tears of Steel数据集、SVT数据集。
    |**Year**|**Dataset**|**Resolution**|**High Bit**|**Low Bit**|**Frame rate**|**Download Link**|**Description**|
