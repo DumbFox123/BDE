@@ -74,7 +74,7 @@ With the development of digital signal visualization technology, the demands for
    [[Website](https://ieeexplore.ieee.org/document/9491068)] [[Code](https://github.com/TJUMMG/RMFNet)] 
    - [Displays 2021]:boom: **Photo-realistic residual bit-depth enhancement by advanced conditional GAN.** &nbsp; *Jing Liu* , BE-ACGAN.\
    [[Website](https://www.sciencedirect.com/science/article/pii/S0141938221000512)] [[Code](https://github.com/TJUMMG/BE-ACGAN)] 
-   - [TPAMI 2021] :boom: **A Little Bit More: Bitplane-Wise Bit-Depth Recovery** &nbsp; *Abhijith Punnappurath* , ALBM.\
+   - [TPAMI 2021] :boom: **A Little Bit More: Bitplane-Wise Bit-Depth Recovery.** &nbsp; *Abhijith Punnappurath* , ALBM.\
    [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
    - [SPL 2022] :boom: **Iterative Residual Feature Refinement Network for Bit-Depth Enhancement.** &nbsp; *Jing Liu* , IRFRN.\
    [[Website](https://ieeexplore.ieee.org/abstract/document/9787714)] [[Code](https://github.com/TJUMMG/IRFRN)] 
