@@ -94,7 +94,7 @@ With the development of digital signal visualization technology, the demands for
 
 ---
 
-:mailbox_with_no_mail: # Contact
+# :mailbox_with_no_mail: Contact
 
  Jing Liu (jliu_tju@tju.edu.cn).
 
