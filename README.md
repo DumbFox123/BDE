@@ -5,14 +5,14 @@
 
 ## :bookmark:Contents
 - **[Bit Depth Enhancement <a name="headin"></a>](#bit-deep-enhancement-)**	
-	- **[Contents](#contents)**	
+	- **[Contents](#:bookmark:contents)**	
 	- **[Introduction](#introduction)**
 	- **[Datasets](#datasets)**
 	- **[Papers and Codes](#papers-and-codes)**
 		- **[Image Domain](#image-domain)**
 		- **[Video Domain](#video-domian)**
 
-:blue_book:## Introduction
+## :blue_book:Introduction
 With the development of digital signal visualization technology, the demands for high resolution and bit-depth monitors have been raised for their enjoyable visual experience. However, since the HBD image acquisition technology has only gained popularity in recent years, most existing images and video contents are of low bit-depth. When these LBD images are viewed on higher bit-depth monitors directly, pixel values are usually de-quantized with simple algorithms like Zero Padding (ZP). It is highly likely to result in severe false contouring artifacts in smooth gradient areas as well as chroma distortions in high illumination regions , degrading the image visual quality. The false contour artifacts and chroma distortions are illustrated as Figure. 1 . The 16-bit image is quantized to 4-bit and de-quantized with ZP algorithm to display as the left sub-image. Compared with the raw HBD sub-image, some false contours appear on the reconstructed sub-image and the colors are less bright than the right sub-image, especially when the pixels have high illumination. Therefore, designing an effective bit-depth enhancement algorithm is of significant value.
 
 <p align="center">
