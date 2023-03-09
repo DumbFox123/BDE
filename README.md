@@ -16,11 +16,13 @@
 With the development of digital signal visualization technology, the demands for high resolution and bit-depth monitors have been raised for their enjoyable visual experience. However, since the HBD image acquisition technology has only gained popularity in recent years, most existing images and video contents are of low bit-depth. When these LBD images are viewed on higher bit-depth monitors directly, pixel values are usually de-quantized with simple algorithms like Zero Padding (ZP). It is highly likely to result in severe false contouring artifacts in smooth gradient areas as well as chroma distortions in high illumination regions , degrading the image visual quality. The false contour artifacts and chroma distortions are illustrated as Figure. 1 . The 16-bit image is quantized to 4-bit and de-quantized with ZP algorithm to display as the left sub-image. Compared with the raw HBD sub-image, some false contours appear on the reconstructed sub-image and the colors are less bright than the right sub-image, especially when the pixels have high illumination. Therefore, designing an effective bit-depth enhancement algorithm is of significant value.
 
 <p align="center">
-    <img src="intro.png" width="90%" /> <br />
+    <a href="https://imgse.com/i/ppnlCTK"><img src="https://s1.ax1x.com/2023/03/09/ppnlCTK.png" alt="ppnlCTK.png" border="0" /></a>
     <em> 
     Figure 1: Illustration of false contour artifacts and chroma distortions.
     </em>
 </p>
+
+
 
 
 ## :file_folder: Datasets
@@ -75,7 +77,7 @@ With the development of digital signal visualization technology, the demands for
    - [TPAMI 2021] :boom: **A Little Bit More: Bitplane-Wise Bit-Depth Recovery** &nbsp; *Abhijith Punnappurath* , ALBM.\
    [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
    - [SPL 2022] :boom: **Iterative Residual Feature Refinement Network for Bit-Depth Enhancement.** &nbsp; *Jing Liu* , IRFRN.\
-   [[Website]([Iterative Residual Feature Refinement Network for Bit-Depth Enhancement | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9787714))] [[Code](https://github.com/TJUMMG/IRFRN)] 
+   [[Website](https://ieeexplore.ieee.org/abstract/document/9787714)] [[Code](https://github.com/TJUMMG/IRFRN)] 
 
 
 - ### :movie_camera:Video Domian
