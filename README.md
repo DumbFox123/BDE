@@ -55,65 +55,61 @@ The last decade has witnessed a growing interest in video salient object detecti
 
 - ### Image Domain
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
+   - [IFTC 2017]:boom: **Bit-Depth Enhancement via Convolutional Neural Network.** &nbsp; *Jing Liu* , BE-CNN.\
+[[Website](https://link.springer.com/chapter/10.1007/978-981-10-8108-8_24)] [[Code](https://github.com/TJUMMG/BE-CNN)] 
+
+   - [ACCV 2018]:boom: **BitNet: Learning-Based Bit-Depth Expansion.** &nbsp; *Junyoung Byun* , BitNet.\
+[[Website](https://link.springer.com/chapter/10.1007/978-3-030-20890-5_5)] [[Code](https://github.com/kamkyu94/BitNet)] 
+
+   - [ACCV 2018]:boom: **Gradient-Guided DCNN for Inverse Halftoning and Image Expanding.** &nbsp; *Yi Xiao* , GG-DCNN.\
+[[Website](https://link.springer.com/chapter/10.1007/978-3-030-20870-7_13)]
+
+   - [ACCV 2018]:boom: **BE-CALF: Bit-Depth Enhancement by Concatenating All Level Features of DNN.** &nbsp; *Jing Liu* , BE-CALF.\
+[[Website](https://ieeexplore.ieee.org/document/8713480)] [[Code](https://github.com/TJUMMG/BE-CALF)] 
+
+   - [Neucom 2019]:boom: **Photo-realistic image bit-depth enhancement via residual transposed convolutional neural network.** &nbsp; *Yuting Su* , RT-CNN.\
+[[Website](https://www.sciencedirect.com/science/article/pii/S0925231219305272)] 
+
+   - [TIP 2019]:boom: **Deep reconstruction of least significant bits for bit-depth expansion.** &nbsp; *Yang Zhao* , BDEN\
+[[Website](https://ieeexplore.ieee.org/document/8603810)] 
+
+   - [TCSVT 2020]:boom: **Lighter but efficient bit-depth expansion network.** &nbsp; *Yang Zhao* , LBDE\
+[[Website](https://ieeexplore.ieee.org/document/9044324)] 
+
+   - [Arxiv 2020]:boom: **Deep attentive generative adversarial network for photo-realistic image de-quantization.** &nbsp; *Yang Zhang* , DAGAN\
+[[Website](https://arxiv.org/ftp/arxiv/papers/2004/2004.03150.pdf)] 
+
+   - [TCSVT 2021]:boom: **Residual-Guided Multiscale Fusion Network for Bit-Depth Enhancement.** &nbsp; *Jing Liu* , RMFNet\
+[[Website](https://ieeexplore.ieee.org/document/9491068)] [[Code](https://github.com/TJUMMG/RMFNet)] 
+
+   - [Displays 2021]:boom: **Photo-realistic residual bit-depth enhancement by advanced conditional GAN.** &nbsp; *Jing Liu* , BE-ACGAN\
+[[Website](https://www.sciencedirect.com/science/article/pii/S0141938221000512)] [[Code](https://github.com/TJUMMG/BE-ACGAN)] 
+
+   - [TPAMI 2022]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , ALBM\
 [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
+   - [CVPR 2022]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , LSRRD\
 [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
+   - [TCSVT 2023]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , FBDN\
 [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
 
 - ### Video Domian
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
+   - [TMM 2019]:boom: **Spatiotemporal symmetric convolutional neural network for video bit-depth enhancement.** &nbsp; *Jing Liu* , SSCNN\
+[[Website](https://ieeexplore.ieee.org/document/8636159)] 
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
+   - [TMM 2021]:boom: **Tanet: Target attention network for video bit-depth enhancement.** &nbsp; *Jing Liu* , TANet\
+[[Website](https://ieeexplore.ieee.org/abstract/document/9547837)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
+   - [BMSB 2021]:boom: **3D-BitNet: Flow-agnostic and precise network for video bit-depth expansion.** &nbsp; *Geyingjie Wen* , 3D-BitNet\
+[[Website](https://ieeexplore.ieee.org/document/9547086)]
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
+   - [MMSP 2022]:boom: **Bit-depth enhancement detection for compressed video.** &nbsp; *Nickolay Safonov* , ????\
+[[Website](https://arxiv.org/abs/2211.04799v1)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
-
-   - [2022-09-15]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , 2022 CVPR\
-[[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
 ---
 Note that: This is the test version written by wjx.
