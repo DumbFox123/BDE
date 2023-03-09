@@ -70,28 +70,28 @@ The last decade has witnessed a growing interest in video salient object detecti
    - [Neucom 2019]:boom: **Photo-realistic image bit-depth enhancement via residual transposed convolutional neural network.** &nbsp; *Yuting Su* , RT-CNN.\
 [[Website](https://www.sciencedirect.com/science/article/pii/S0925231219305272)] 
 
-   - [TIP 2019]:boom: **Deep reconstruction of least significant bits for bit-depth expansion.** &nbsp; *Yang Zhao* , BDEN\
+   - [TIP 2019]:boom: **Deep reconstruction of least significant bits for bit-depth expansion.** &nbsp; *Yang Zhao* , BDEN.\
 [[Website](https://ieeexplore.ieee.org/document/8603810)] 
 
-   - [TCSVT 2020]:boom: **Lighter but efficient bit-depth expansion network.** &nbsp; *Yang Zhao* , LBDE\
+   - [TCSVT 2020]:boom: **Lighter but efficient bit-depth expansion network.** &nbsp; *Yang Zhao* , LBDE.\
 [[Website](https://ieeexplore.ieee.org/document/9044324)] 
 
-   - [Arxiv 2020]:boom: **Deep attentive generative adversarial network for photo-realistic image de-quantization.** &nbsp; *Yang Zhang* , DAGAN\
+   - [Arxiv 2020]:boom: **Deep attentive generative adversarial network for photo-realistic image de-quantization.** &nbsp; *Yang Zhang* , DAGAN.\
 [[Website](https://arxiv.org/ftp/arxiv/papers/2004/2004.03150.pdf)] 
 
-   - [TCSVT 2021]:boom: **Residual-Guided Multiscale Fusion Network for Bit-Depth Enhancement.** &nbsp; *Jing Liu* , RMFNet\
+   - [TCSVT 2021]:boom: **Residual-Guided Multiscale Fusion Network for Bit-Depth Enhancement.** &nbsp; *Jing Liu* , RMFNet.\
 [[Website](https://ieeexplore.ieee.org/document/9491068)] [[Code](https://github.com/TJUMMG/RMFNet)] 
 
-   - [Displays 2021]:boom: **Photo-realistic residual bit-depth enhancement by advanced conditional GAN.** &nbsp; *Jing Liu* , BE-ACGAN\
+   - [Displays 2021]:boom: **Photo-realistic residual bit-depth enhancement by advanced conditional GAN.** &nbsp; *Jing Liu* , BE-ACGAN.\
 [[Website](https://www.sciencedirect.com/science/article/pii/S0141938221000512)] [[Code](https://github.com/TJUMMG/BE-ACGAN)] 
 
-   - [TPAMI 2022]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , ALBM\
+   - [TPAMI 2022]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , ALBM.\
 [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [CVPR 2022]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , LSRRD\
+   - [CVPR 2022]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , LSRRD.\
 [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [TCSVT 2023]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , FBDN\
+   - [TCSVT 2023]:boom: **A Path to the Variational Diffusion Loss.** &nbsp; *Alex Alemi* , FBDN.\
 [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
 
@@ -100,13 +100,13 @@ The last decade has witnessed a growing interest in video salient object detecti
    - [TMM 2019]:boom: **Spatiotemporal symmetric convolutional neural network for video bit-depth enhancement.** &nbsp; *Jing Liu* , SSCNN\
 [[Website](https://ieeexplore.ieee.org/document/8636159)] 
 
-   - [TMM 2021]:boom: **Tanet: Target attention network for video bit-depth enhancement.** &nbsp; *Jing Liu* , TANet\
+   - [TMM 2021]:boom: **Tanet: Target attention network for video bit-depth enhancement.** &nbsp; *Jing Liu* , TANet.\
 [[Website](https://ieeexplore.ieee.org/abstract/document/9547837)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
-   - [BMSB 2021]:boom: **3D-BitNet: Flow-agnostic and precise network for video bit-depth expansion.** &nbsp; *Geyingjie Wen* , 3D-BitNet\
+   - [BMSB 2021]:boom: **3D-BitNet: Flow-agnostic and precise network for video bit-depth expansion.** &nbsp; *Geyingjie Wen* , 3D-BitNet.\
 [[Website](https://ieeexplore.ieee.org/document/9547086)]
 
-   - [MMSP 2022]:boom: **Bit-depth enhancement detection for compressed video.** &nbsp; *Nickolay Safonov* , ????\
+   - [MMSP 2022]:boom: **Bit-depth enhancement detection for compressed video.** &nbsp; *Nickolay Safonov* , ????.\
 [[Website](https://arxiv.org/abs/2211.04799v1)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
 
 
