@@ -3,18 +3,16 @@
 > :pencil2:**Authors:**
 > [Jing Liu](https://github.com/TJUMMG).
 
-## :bookmark:Contents
-- **[Bit Depth Enhancement <a name="headin"></a>](#bit-deep-enhancement-)**
-	
-	- **[Contents](#contents)**
-	
+:bookmark:## Contents
+- **[Bit Depth Enhancement <a name="headin"></a>](#bit-deep-enhancement-)**	
+	- **[Contents](#contents)**	
 	- **[Introduction](#introduction)**
 	- **[Datasets](#datasets)**
 	- **[Papers and Codes](#papers-and-codes)**
 		- **[Image Domain](#image-domain)**
 		- **[Video Domain](#video-domian)**
 
-## :blue_book:Introduction
+:blue_book:## Introduction
 With the development of digital signal visualization technology, the demands for high resolution and bit-depth monitors have been raised for their enjoyable visual experience. However, since the HBD image acquisition technology has only gained popularity in recent years, most existing images and video contents are of low bit-depth. When these LBD images are viewed on higher bit-depth monitors directly, pixel values are usually de-quantized with simple algorithms like Zero Padding (ZP). It is highly likely to result in severe false contouring artifacts in smooth gradient areas as well as chroma distortions in high illumination regions , degrading the image visual quality. The false contour artifacts and chroma distortions are illustrated as Figure. 1 . The 16-bit image is quantized to 4-bit and de-quantized with ZP algorithm to display as the left sub-image. Compared with the raw HBD sub-image, some false contours appear on the reconstructed sub-image and the colors are less bright than the right sub-image, especially when the pixels have high illumination. Therefore, designing an effective bit-depth enhancement algorithm is of significant value.
 
 <p align="center">
@@ -25,7 +23,7 @@ With the development of digital signal visualization technology, the demands for
 </p>
 
 
-## :file_folder:Datasets
+:file_folder:## Datasets
 
 &nbsp; &nbsp; 位深增强算法的设计和验证离不开高位深内容数据库，目前国内外常用的高位深图像和视频数据集有Sintel数据集、MIT-Adobe 5K数据集、TESTIMAGES数据集、FuntHDR数据集、SJTU HDR、Tears of Steel数据集、SVT数据集。
    |**Year**|**Dataset**|**Resolution**|**High Bit**|**Low Bit**|**Frame rate**|**Download Link**|**Description**|
@@ -50,9 +48,9 @@ With the development of digital signal visualization technology, the demands for
 |2013|**Tears of Steel**|17620|[Link](https://mango.blender.org/download/)|自然场景与计算机合成混合的电影序列|
 |2014|**SVT**|1517|[Link](https://tc11.cvc.uab.es/datasets/SVT_1)|视频质量专家组(VQEG)发布的4K测试剪辑|
 
-## :computer:Papers and Codes
+:computer:## Papers and Codes
 
-- ### :camera:Image Domain
+- :camera: ### Image Domain
 
    - [IFTC 2017]:boom: **Bit-Depth Enhancement via Convolutional Neural Network.** &nbsp; *Jing Liu* , BE-CNN.\
    [[Website](https://link.springer.com/chapter/10.1007/978-981-10-8108-8_24)] [[Code](https://github.com/TJUMMG/BE-CNN)] 
@@ -80,7 +78,7 @@ With the development of digital signal visualization technology, the demands for
    [[Website]([Iterative Residual Feature Refinement Network for Bit-Depth Enhancement | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9787714))] [[Code](https://github.com/TJUMMG/IRFRN)] 
 
 
-- ### :movie_camera:Video Domian
+- :movie_camera: ### Video Domian
 
    - [TMM 2019]:boom: **Spatiotemporal symmetric convolutional neural network for video bit-depth enhancement.** &nbsp; *Jing Liu* , SSCNN\
 [[Website](https://ieeexplore.ieee.org/document/8636159)] 
@@ -96,7 +94,7 @@ With the development of digital signal visualization technology, the demands for
 
 ---
 
-# :mailbox_with_no_mail:Contact
+:mailbox_with_no_mail: # Contact
 
  Jing Liu (jliu_tju@tju.edu.cn).
 
