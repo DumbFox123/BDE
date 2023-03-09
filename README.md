@@ -3,7 +3,7 @@
 > :pencil2:**Authors:**
 > [Jing Liu](https://github.com/TJUMMG).
 
-:bookmark:## Contents
+## :bookmark:Contents
 - **[Bit Depth Enhancement <a name="headin"></a>](#bit-deep-enhancement-)**	
 	- **[Contents](#contents)**	
 	- **[Introduction](#introduction)**
@@ -48,9 +48,9 @@ With the development of digital signal visualization technology, the demands for
 |2013|**Tears of Steel**|17620|[Link](https://mango.blender.org/download/)|自然场景与计算机合成混合的电影序列|
 |2014|**SVT**|1517|[Link](https://tc11.cvc.uab.es/datasets/SVT_1)|视频质量专家组(VQEG)发布的4K测试剪辑|
 
-:computer:## Papers and Codes
+## :computer:Papers and Codes
 
-- :camera: ### Image Domain
+- ### :camera:Image Domain
 
    - [IFTC 2017]:boom: **Bit-Depth Enhancement via Convolutional Neural Network.** &nbsp; *Jing Liu* , BE-CNN.\
    [[Website](https://link.springer.com/chapter/10.1007/978-981-10-8108-8_24)] [[Code](https://github.com/TJUMMG/BE-CNN)] 
@@ -78,7 +78,7 @@ With the development of digital signal visualization technology, the demands for
    [[Website]([Iterative Residual Feature Refinement Network for Bit-Depth Enhancement | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9787714))] [[Code](https://github.com/TJUMMG/IRFRN)] 
 
 
-- :movie_camera: ### Video Domian
+- ### :movie_camera:Video Domian
 
    - [TMM 2019]:boom: **Spatiotemporal symmetric convolutional neural network for video bit-depth enhancement.** &nbsp; *Jing Liu* , SSCNN\
 [[Website](https://ieeexplore.ieee.org/document/8636159)] 
