@@ -13,7 +13,9 @@
 		- **[Video Domain](#video-domian)**
 
 ## :blue_book:Introduction
-With the development of digital signal visualization technology, the demands for high resolution and bit-depth monitors have been raised for their enjoyable visual experience. However, since the HBD image acquisition technology has only gained popularity in recent years, most existing images and video contents are of low bit-depth. When these LBD images are viewed on higher bit-depth monitors directly, pixel values are usually de-quantized with simple algorithms like Zero Padding (ZP). It is highly likely to result in severe false contouring artifacts in smooth gradient areas as well as chroma distortions in high illumination regions , degrading the image visual quality. The false contour artifacts and chroma distortions are illustrated as Figure. 1 . The 16-bit image is quantized to 4-bit and de-quantized with ZP algorithm to display as the left sub-image. Compared with the raw HBD sub-image, some false contours appear on the reconstructed sub-image and the colors are less bright than the right sub-image, especially when the pixels have high illumination. Therefore, designing an effective bit-depth enhancement algorithm is of significant value.
+
+  With the development of digital signal visualization technology, the demands for high resolution and bit-depth monitors have been raised for their enjoyable visual experience. However, since the HBD image acquisition technology has only gained popularity in recent years, most existing images and video contents are of low bit-depth. When these LBD images are viewed on higher bit-depth monitors directly, pixel values are usually de-quantized with simple algorithms like Zero Padding (ZP). It is highly likely to result in severe false contouring artifacts in smooth gradient areas as well as chroma distortions in high illumination regions , degrading the image visual quality. The false contour artifacts and chroma distortions are illustrated as Figure. 1 . The 16-bit image is quantized to 4-bit and de-quantized with ZP algorithm to display as the left sub-image. Compared with the raw HBD sub-image, some false contours appear on the reconstructed sub-image and the colors are less bright than the right sub-image, especially when the pixels have high illumination. Therefore, designing an effective bit-depth enhancement algorithm is of significant value.
+
 
 <p align="center">
     <a href="https://imgse.com/i/ppnlCTK"><img src="https://s1.ax1x.com/2023/03/09/ppnlCTK.png" alt="ppnlCTK.png" border="0" /></a>
@@ -45,10 +47,8 @@ With the development of digital signal visualization technology, the demands for
 |1999|**Kodak**|24|[Link](https://r0k.us/graphics/kodak/)|经典的无损真彩图像数据库，由Eastman Kodak公司发布|
 |2017|**DPED**|16K|[Link](https://people.ee.ethz.ch/~ihnatova/)|由三部智能手机和一台数码单反相机在野外同步拍摄的照片组成，每张由智能相机拍摄的图片都有对应的各种不同且复杂的降质图片|
 |2019|**ADE20K**|25M|[Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/)|从多个早期的数据集中收集得到的真实复杂场景图片(如道路，树林等)，最初用于场景感知和语义理解等任务。由于存在不同程度的拍摄读取噪声、网络传输压缩损失等多种降质，也可用于面向实际场景的增强任务|
-|2010|**Funt HDR**|105个场景|[Link](https://www2.cs.sfu.ca/~colour/data/funt_hdr/#DESCRIPTION)|使用NikonD700数码静物相机拍摄的105个场景，每个场景包含9个不同曝光值。包含raw数据格式和16bitPNG格式，经过MATLAB图像处理工具箱生成HDR图像|
-|2016|**SJTU HDR**|600帧×16序列|[Link](https://medialab.sjtu.edu.cn/post/16-01-01-sjtu-hdr-video-sequences/)|SonyF65、F55相机拍摄的16个超高清HDR视频集|
-|2013|**Tears of Steel**|17620|[Link](https://mango.blender.org/download/)|自然场景与计算机合成混合的电影序列|
-|2014|**SVT**|1517|[Link](https://tc11.cvc.uab.es/datasets/SVT_1)|视频质量专家组(VQEG)发布的4K测试剪辑|
+|2018|**OST300**|10K|[Link](http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/)|通过关键字检索收集的真实户外场景数据集，图像包含丰富的纹理细节，同时包含各种压缩损失、拍摄读取噪声，用于验证面向语义类纹理的图像增强模型|
+
 
 ## :computer:Papers and Codes
 
