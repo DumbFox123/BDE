@@ -1,7 +1,9 @@
 # Bit Depth Enhancement <a name="headin"></a>
 
+This repository is mainly used to track the dynamics related to bit depth enhancement, including mainstream data sets, algorithms for bit enhancement in image or video fields, and open source code. Promote the development of Ultra HD images or videos such as HDR by investigating bit depth enhancement algorithms. This repository will be continuously updated！
+
 > :pencil2:**Authors:**
-> [Jing Liu](https://github.com/TJUMMG), [Jiaxiang Wang](https://github.com/DumbFox123), [Zhiwei Fan](https://github.com/DumbFox123).
+> [Jing Liu](https://github.com/TJUMMG), [Jiaxiang Wang](https://github.com/DumbFox123), [Zhiwei Fan](https://github.com/FanDady).
 
 ## :bookmark:Contents
 - **[Bit Depth Enhancement <a name="headin"></a>](#bit-deep-enhancement-)**	
@@ -14,7 +16,7 @@
 
 ## :blue_book:Introduction
 
-  With the development of digital signal visualization technology, the demands for high resolution and bit-depth monitors have been raised for their enjoyable visual experience. However, since the HBD image acquisition technology has only gained popularity in recent years, most existing images and video contents are of low bit-depth. When these LBD images are viewed on higher bit-depth monitors directly, pixel values are usually de-quantized with simple algorithms like Zero Padding (ZP). It is highly likely to result in severe false contouring artifacts in smooth gradient areas as well as chroma distortions in high illumination regions , degrading the image visual quality. The false contour artifacts and chroma distortions are illustrated as Figure. 1 . The 16-bit image is quantized to 4-bit and de-quantized with ZP algorithm to display as the left sub-image. Compared with the raw HBD sub-image, some false contours appear on the reconstructed sub-image and the colors are less bright than the right sub-image, especially when the pixels have high illumination. Therefore, designing an effective bit-depth enhancement algorithm is of significant value.
+With the development of digital signal visualization technology, the demands for high resolution and bit-depth monitors have been raised for their enjoyable visual experience. However, since the HBD image acquisition technology has only gained popularity in recent years, most existing images and video contents are of low bit-depth. When these LBD images are viewed on higher bit-depth monitors directly, pixel values are usually de-quantized with simple algorithms like Zero Padding (ZP). It is highly likely to result in severe false contouring artifacts in smooth gradient areas as well as chroma distortions in high illumination regions , degrading the image visual quality. The false contour artifacts and chroma distortions are illustrated as Figure. 1 . The 16-bit image is quantized to 4-bit and de-quantized with ZP algorithm to display as the left sub-image. Compared with the raw HBD sub-image, some false contours appear on the reconstructed sub-image and the colors are less bright than the right sub-image, especially when the pixels have high illumination. Therefore, designing an effective bit-depth enhancement algorithm is of significant value.
 
 
 <p align="center">
@@ -29,25 +31,25 @@
 
 ## :file_folder: Datasets
 
-&nbsp; &nbsp; 位深增强算法的设计和验证离不开高位深内容数据库，目前国内外常用的高位深图像和视频数据集有Sintel数据集、MIT-Adobe 5K数据集、TESTIMAGES数据集、FuntHDR数据集、SJTU HDR、Tears of Steel数据集、SVT数据集。
-   |**Year**|**Dataset**|**Resolution**|**High Bit**|**Low Bit**|**Frame rate**|**Download Link**|**Description**|
-   | :-: | :-: | :-: | :-: |:-: | :-: | :-: | :- |
-   |2012|**Sintel**|1K,2K,4K|16|8|24|[Link](http://sintel.is.tue.mpg.de/downloads)|计算机合成的动画电影,具有细腻平滑的内容纹理包含各种动植物、建筑物、自然场景以及极端亮暗情况|
-   |2011|**MIT-Adobe5K**|-|16|-|-|[Link](https://data.csail.mit.edu/graphics/fivek/)|不同摄影者使用不同品牌相机拍摄的自然图像集涵盖多种人物、动植物、建筑物等自然场景，包括多种不同的照明条件和多种分辨率。经专业调色的HDR图像保存为相机原始格式|
-   |2014|**TESTIMAGES**|100×100至2400×2400|16|8|-|[Link](https://sourceforge.net/projects/testimages/files/)|用于显示设备或图像处理技术的分析和质量评估其中包含40张实际拍摄的自然图像，8bit图像由16bit图像通过亮度归一化生成|
-   |2010|**Funt HDR**|2142×2142|16|-|-|[Link](https://www2.cs.sfu.ca/~colour/data/funt_hdr/#DESCRIPTION)|使用NikonD700数码静物相机拍摄的105个场景每个场景包含9个不同曝光值。包含raw数据格式和16bit PNG格式，经过MATLAB图像处理工具箱生成HDR图像|
-   |2016|**SHTU HDR**|4K|16|-|60|[Link](https://medialab.sjtu.edu.cn/post/16-01-01-sjtu-hdr-video-sequences/)|SonyF65、F55相机拍摄的16个超高清HDR视频集|
-   |2013|**Tears of Steel**|2K,4K|16|8|24|[Link](https://mango.blender.org/download/)|自然场景与计算机合成混合的电影序列|
-   |2014|**SVT**|4K|16|-|50|[Link](https://tc11.cvc.uab.es/datasets/SVT_1)|视频质量专家组(VQEG)发布的4K测试剪辑|
+The design and verification of the bit depth enhancement algorithm cannot be separated from the high-order deep content database. At present, the commonly used high-order deep image and video data sets at home and abroad include Sintel data set, MIT-Adobe 5K data set, TESTIMAGES data set, FuntHDR data set, SJTU HDR, Tears of Steel data set, and SVT data set.
+|**Year**|**Dataset**|**Resolution**|**High Bit**|**Low Bit**|**Frame rate**|**Download Link**|**Description**|
+| :-: | :-: | :-: | :-: |:-: | :-: | :-: | :- |
+|2012|**Sintel**|1K,2K,4K|16|8|24|[Link](http://sintel.is.tue.mpg.de/downloads)|Computer-synthesized animated film with fine and smooth content texture, including various animals and plants, buildings, natural scenes and extreme light and dark conditions|
+|2011|**MIT-Adobe5K**|-|16|-|-|[Link](https://data.csail.mit.edu/graphics/fivek/)|The natural image sets taken by different photographers with different brands of cameras cover a variety of natural scenes such as people, animals and plants, buildings, etc., including a variety of different lighting conditions and resolutions. The HDR image with professional color adjustment is saved in the original format of the camera.|
+|2014|**TESTIMAGES**|100×100至2400×2400|16|8|-|[Link](https://sourceforge.net/projects/testimages/files/)|Used for analysis and quality evaluation of display equipment or image processing technology, including 40 actual natural images, and 8 bit images are generated from 16 bit images through brightness normalization.|
+|2010|**Funt HDR**|2142×2142|16|-|-|[Link](https://www2.cs.sfu.ca/~colour/data/funt_hdr/#DESCRIPTION)|The 105 scenes taken with the NikonD700 digital still life camera contain 9 different exposure values for each scene. Including raw data format and 16bit PNG format, HDR image is generated through MATLAB image processing toolbox.|
+|2016|**SHTU HDR**|4K|16|-|60|[Link](https://medialab.sjtu.edu.cn/post/16-01-01-sjtu-hdr-video-sequences/)|16 ultra-high definition HDR video sets captured by Sony F65 and F55 cameras|
+|2013|**Tears of Steel**|2K,4K|16|8|24|[Link](https://mango.blender.org/download/)|A movie sequence mixed with natural scenes and computer synthesis.|
+|2014|**SVT**|4K|16|-|50|[Link](https://tc11.cvc.uab.es/datasets/SVT_1)|4K test clip released by Video Quality Expert Group (VQEG).|
 
-&nbsp; &nbsp; 除上述高位深数据库以外，由于传统8bit图像数据库内容丰富、更符合早期降质等原因，也可用于验证位深增强算法的有效性，经典的8bit数据库主要包括：Kodak、DPED、ADE20K、OST300等。
+In addition to the high bit depth database mentioned above, the traditional 8bit image database can also be used to verify the effectiveness of the bit depth enhancement algorithm due to its rich content and more consistent with early degradation. The classic 8bit database mainly includes Kodak, DPED, ADE20K, OST300, etc.
 
 |**Year**|**Dataset**|**Number**|**Download Link**|**Description**|
 | :-: | :-: | :-: | :-: | :- |
-|1999|**Kodak**|24|[Link](https://r0k.us/graphics/kodak/)|经典的无损真彩图像数据库，由Eastman Kodak公司发布|
-|2017|**DPED**|16K|[Link](https://people.ee.ethz.ch/~ihnatova/)|由三部智能手机和一台数码单反相机在野外同步拍摄的照片组成，每张由智能相机拍摄的图片都有对应的各种不同且复杂的降质图片|
-|2019|**ADE20K**|25M|[Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/)|从多个早期的数据集中收集得到的真实复杂场景图片(如道路，树林等)，最初用于场景感知和语义理解等任务。由于存在不同程度的拍摄读取噪声、网络传输压缩损失等多种降质，也可用于面向实际场景的增强任务|
-|2018|**OST300**|10K|[Link](http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/)|通过关键字检索收集的真实户外场景数据集，图像包含丰富的纹理细节，同时包含各种压缩损失、拍摄读取噪声，用于验证面向语义类纹理的图像增强模型|
+|1999|**Kodak**|24|[Link](https://r0k.us/graphics/kodak/)|Classic lossless true color image database, released by Eastman Kodak|
+|2017|**DPED**|16K|[Link](https://people.ee.ethz.ch/~ihnatova/)|It is composed of three smart phones and a digital SLR camera synchronously taking pictures in the field. Each picture taken by the smart camera has corresponding different and complex degraded pictures|
+|2019|**ADE20K**|25M|[Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/)|Real complex scene images (such as roads, trees, etc.) collected from multiple early data sets were initially used for scene perception and semantic understanding. It can also be used for enhancement tasks facing real scenes due to various degradation such as shooting and reading noise, network transmission compression loss, etc|
+|2018|**OST300**|10K|[Link](http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/)|The real outdoor scene data set collected by keyword retrieval contains rich texture details, as well as various compression losses and shooting and reading noise, which is used to verify the image enhancement model for semantic texture|
 
 
 ## :computer:Papers and Codes
