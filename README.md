@@ -1,7 +1,7 @@
 # Bit Depth Enhancement <a name="headin"></a>
 
 > :pencil2:**Authors:**
-> [Jing Liu](https://github.com/TJUMMG).
+> [Jing Liu](https://github.com/TJUMMG), [Jiaxiang Wang](https://github.com/DumbFox123), [Zhiwei Fan](https://github.com/DumbFox123).
 
 ## :bookmark:Contents
 - **[Bit Depth Enhancement <a name="headin"></a>](#bit-deep-enhancement-)**	
