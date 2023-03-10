@@ -77,7 +77,9 @@
    - [TPAMI 2021] :boom: **A Little Bit More: Bitplane-Wise Bit-Depth Recovery.** &nbsp; *Abhijith Punnappurath* , ALBM.\
    [[Website](https://blog.alexalemi.com/diffusion.html)] [[Code](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] 
    - [SPL 2022] :boom: **Iterative Residual Feature Refinement Network for Bit-Depth Enhancement.** &nbsp; *Jing Liu* , IRFRN.\
-   [[Website](https://ieeexplore.ieee.org/abstract/document/9787714)] [[Code](https://github.com/TJUMMG/IRFRN)] 
+   [[Website](https://ieeexplore.ieee.org/abstract/document/9787714)] [[Code](https://github.com/TJUMMG/IRFRN)]    
+   - [Arxiv 2022] :boom: **Learning Weighting Map for Bit-Depth Expansion within a Rational Range.** &nbsp; *Yuqing Liu* , BRNet.\
+   [[Website](https://arxiv.org/abs/2204.12039)] [[Code](https://github.com/yuqing-liu-dut/bit-depth-expansion)] 
 
 
 - ### :movie_camera:Video Domian
